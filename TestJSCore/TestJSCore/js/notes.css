@@ -1,0 +1,38 @@
+
+
+.share {
+    /*background-color: limegreen;*/
+}
+
+.note {
+    background-color: #8ef5db;
+}
+
+.favorite {
+    border-bottom:solid 1px #ed6a5f;
+}
+img{
+    width:100%;
+}
+body{
+    padding: 0px 8px 0px 8px;
+    line-height:1.4em;
+}
+.hiddenMybody
+ {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+    position:relative;
+    line-height:1.4em;
+    /* 3 times the line-height to show 3 lines */
+    height:4.2em;
+    overflow:hidden;
+}
+.mybody {
+	position:relative;
+    line-height:1.4em;
+    padding:0 8px 0px 8px;
+}
+

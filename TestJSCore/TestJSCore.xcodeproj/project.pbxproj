@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F385E1991DCC70F50076BF78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F385E1981DCC70F50076BF78 /* main.m */; };
+		F385E19C1DCC70F50076BF78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F385E19B1DCC70F50076BF78 /* AppDelegate.m */; };
+		F385E1A41DCC70F50076BF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F385E1A31DCC70F50076BF78 /* Assets.xcassets */; };
+		F385E1A71DCC70F50076BF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F385E1A51DCC70F50076BF78 /* LaunchScreen.storyboard */; };
+		F385E1B91DCC71020076BF78 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1AF1DCC71020076BF78 /* jquery.js */; };
+		F385E1BA1DCC71020076BF78 /* notes.css in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B01DCC71020076BF78 /* notes.css */; };
+		F385E1BB1DCC71020076BF78 /* notes.html in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B11DCC71020076BF78 /* notes.html */; };
+		F385E1BC1DCC71020076BF78 /* notes.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B21DCC71020076BF78 /* notes.js */; };
+		F385E1BD1DCC71020076BF78 /* rangy-classapplier.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B31DCC71020076BF78 /* rangy-classapplier.js */; };
+		F385E1BE1DCC71020076BF78 /* rangy-core.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B41DCC71020076BF78 /* rangy-core.js */; };
+		F385E1BF1DCC71020076BF78 /* rangy-highlighter.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B51DCC71020076BF78 /* rangy-highlighter.js */; };
+		F385E1C01DCC71020076BF78 /* rangy-selectionsaverestore.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B61DCC71020076BF78 /* rangy-selectionsaverestore.js */; };
+		F385E1C11DCC71020076BF78 /* rangy-serializer.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B71DCC71020076BF78 /* rangy-serializer.js */; };
+		F385E1C21DCC71020076BF78 /* rangy-textrange.js in Resources */ = {isa = PBXBuildFile; fileRef = F385E1B81DCC71020076BF78 /* rangy-textrange.js */; };
+		F385E1C51DCC711F0076BF78 /* CustomWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F385E1C41DCC711F0076BF78 /* CustomWebView.m */; };
+		F385E1C81DCC71230076BF78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F385E1C71DCC71230076BF78 /* ViewController.m */; };
+		F385E1CA1DCC71310076BF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F385E1C91DCC71310076BF78 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F385E1941DCC70F50076BF78 /* TestJSCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJSCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F385E1981DCC70F50076BF78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F385E19A1DCC70F50076BF78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F385E19B1DCC70F50076BF78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F385E1A31DCC70F50076BF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F385E1A61DCC70F50076BF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F385E1A81DCC70F50076BF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F385E1AF1DCC71020076BF78 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		F385E1B01DCC71020076BF78 /* notes.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = notes.css; sourceTree = "<group>"; };
+		F385E1B11DCC71020076BF78 /* notes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = notes.html; sourceTree = "<group>"; };
+		F385E1B21DCC71020076BF78 /* notes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = notes.js; sourceTree = "<group>"; };
+		F385E1B31DCC71020076BF78 /* rangy-classapplier.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-classapplier.js"; sourceTree = "<group>"; };
+		F385E1B41DCC71020076BF78 /* rangy-core.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-core.js"; sourceTree = "<group>"; };
+		F385E1B51DCC71020076BF78 /* rangy-highlighter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-highlighter.js"; sourceTree = "<group>"; };
+		F385E1B61DCC71020076BF78 /* rangy-selectionsaverestore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-selectionsaverestore.js"; sourceTree = "<group>"; };
+		F385E1B71DCC71020076BF78 /* rangy-serializer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-serializer.js"; sourceTree = "<group>"; };
+		F385E1B81DCC71020076BF78 /* rangy-textrange.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-textrange.js"; sourceTree = "<group>"; };
+		F385E1C31DCC711F0076BF78 /* CustomWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWebView.h; sourceTree = "<group>"; };
+		F385E1C41DCC711F0076BF78 /* CustomWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWebView.m; sourceTree = "<group>"; };
+		F385E1C61DCC71230076BF78 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F385E1C71DCC71230076BF78 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F385E1C91DCC71310076BF78 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = js/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F385E1911DCC70F50076BF78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F385E18B1DCC70F50076BF78 = {
+			isa = PBXGroup;
+			children = (
+				F385E1961DCC70F50076BF78 /* TestJSCore */,
+				F385E1951DCC70F50076BF78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F385E1951DCC70F50076BF78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F385E1941DCC70F50076BF78 /* TestJSCore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F385E1961DCC70F50076BF78 /* TestJSCore */ = {
+			isa = PBXGroup;
+			children = (
+				F385E19A1DCC70F50076BF78 /* AppDelegate.h */,
+				F385E19B1DCC70F50076BF78 /* AppDelegate.m */,
+				F385E1C61DCC71230076BF78 /* ViewController.h */,
+				F385E1C71DCC71230076BF78 /* ViewController.m */,
+				F385E1C31DCC711F0076BF78 /* CustomWebView.h */,
+				F385E1C41DCC711F0076BF78 /* CustomWebView.m */,
+				F385E1C91DCC71310076BF78 /* Main.storyboard */,
+				F385E1AE1DCC71020076BF78 /* js */,
+				F385E1A31DCC70F50076BF78 /* Assets.xcassets */,
+				F385E1A51DCC70F50076BF78 /* LaunchScreen.storyboard */,
+				F385E1A81DCC70F50076BF78 /* Info.plist */,
+				F385E1971DCC70F50076BF78 /* Supporting Files */,
+			);
+			path = TestJSCore;
+			sourceTree = "<group>";
+		};
+		F385E1971DCC70F50076BF78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F385E1981DCC70F50076BF78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F385E1AE1DCC71020076BF78 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				F385E1AF1DCC71020076BF78 /* jquery.js */,
+				F385E1B01DCC71020076BF78 /* notes.css */,
+				F385E1B11DCC71020076BF78 /* notes.html */,
+				F385E1B21DCC71020076BF78 /* notes.js */,
+				F385E1B31DCC71020076BF78 /* rangy-classapplier.js */,
+				F385E1B41DCC71020076BF78 /* rangy-core.js */,
+				F385E1B51DCC71020076BF78 /* rangy-highlighter.js */,
+				F385E1B61DCC71020076BF78 /* rangy-selectionsaverestore.js */,
+				F385E1B71DCC71020076BF78 /* rangy-serializer.js */,
+				F385E1B81DCC71020076BF78 /* rangy-textrange.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F385E1931DCC70F50076BF78 /* TestJSCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F385E1AB1DCC70F50076BF78 /* Build configuration list for PBXNativeTarget "TestJSCore" */;
+			buildPhases = (
+				F385E1901DCC70F50076BF78 /* Sources */,
+				F385E1911DCC70F50076BF78 /* Frameworks */,
+				F385E1921DCC70F50076BF78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestJSCore;
+			productName = TestJSCore;
+			productReference = F385E1941DCC70F50076BF78 /* TestJSCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F385E18C1DCC70F50076BF78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.ichengzivrpro.orgz;
+				TargetAttributes = {
+					F385E1931DCC70F50076BF78 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CH5MP38VP6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F385E18F1DCC70F50076BF78 /* Build configuration list for PBXProject "TestJSCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F385E18B1DCC70F50076BF78;
+			productRefGroup = F385E1951DCC70F50076BF78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F385E1931DCC70F50076BF78 /* TestJSCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F385E1921DCC70F50076BF78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F385E1BF1DCC71020076BF78 /* rangy-highlighter.js in Resources */,
+				F385E1BA1DCC71020076BF78 /* notes.css in Resources */,
+				F385E1C11DCC71020076BF78 /* rangy-serializer.js in Resources */,
+				F385E1BD1DCC71020076BF78 /* rangy-classapplier.js in Resources */,
+				F385E1B91DCC71020076BF78 /* jquery.js in Resources */,
+				F385E1C21DCC71020076BF78 /* rangy-textrange.js in Resources */,
+				F385E1BC1DCC71020076BF78 /* notes.js in Resources */,
+				F385E1CA1DCC71310076BF78 /* Main.storyboard in Resources */,
+				F385E1C01DCC71020076BF78 /* rangy-selectionsaverestore.js in Resources */,
+				F385E1BB1DCC71020076BF78 /* notes.html in Resources */,
+				F385E1A71DCC70F50076BF78 /* LaunchScreen.storyboard in Resources */,
+				F385E1A41DCC70F50076BF78 /* Assets.xcassets in Resources */,
+				F385E1BE1DCC71020076BF78 /* rangy-core.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F385E1901DCC70F50076BF78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F385E1C51DCC711F0076BF78 /* CustomWebView.m in Sources */,
+				F385E19C1DCC70F50076BF78 /* AppDelegate.m in Sources */,
+				F385E1C81DCC71230076BF78 /* ViewController.m in Sources */,
+				F385E1991DCC70F50076BF78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F385E1A51DCC70F50076BF78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F385E1A61DCC70F50076BF78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F385E1A91DCC70F50076BF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F385E1AA1DCC70F50076BF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F385E1AC1DCC70F50076BF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CH5MP38VP6;
+				INFOPLIST_FILE = TestJSCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ichengzivr.TestJSCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F385E1AD1DCC70F50076BF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CH5MP38VP6;
+				INFOPLIST_FILE = TestJSCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ichengzivr.TestJSCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F385E18F1DCC70F50076BF78 /* Build configuration list for PBXProject "TestJSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F385E1A91DCC70F50076BF78 /* Debug */,
+				F385E1AA1DCC70F50076BF78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F385E1AB1DCC70F50076BF78 /* Build configuration list for PBXNativeTarget "TestJSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F385E1AC1DCC70F50076BF78 /* Debug */,
+				F385E1AD1DCC70F50076BF78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F385E18C1DCC70F50076BF78 /* Project object */;
+}
